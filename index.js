@@ -6,7 +6,7 @@ app.use(bodyParser.json())
 
 
 app.get("/",(req,res)=>{
-    res.json({status:"good"})
+    res.json({status:"best"})
 })
 
 app.post("/",(req,res)=>{
